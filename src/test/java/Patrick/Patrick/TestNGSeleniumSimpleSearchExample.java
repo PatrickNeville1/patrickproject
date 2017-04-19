@@ -23,7 +23,7 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 	}
 
-	@Test 1
+	@Test 
 	public void searchTestNGInGoogle() {
 		final String searchKey = "TestNG";
 		System.out.println("Search " + searchKey + " in google");
