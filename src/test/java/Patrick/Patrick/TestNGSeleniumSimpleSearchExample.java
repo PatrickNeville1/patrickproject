@@ -40,11 +40,11 @@ public class TestNGSeleniumSimpleSearchExample {
 		final String searchKeyA = "Twitter";
 		System.out.println("Search " + searchKeyA + " in google");
 		driver.navigate().to("http://www.google.com");
-		WebElement element = driver.findElement(By.name("q"));
+		WebElement elementA = driver.findElement(By.name("q"));
 		System.out.println("Enter " + searchKeyA);
-		element.sendKeys(searchKeyA);
+		elementA.sendKeys(searchKeyA);
 		System.out.println("submit");
-		element.submit();
+		elementA.submit();
 		
 		System.out.println("Got " + searchKeyA + " results");
 	}
