@@ -18,8 +18,9 @@ public class TestNGSeleniumSimpleSearchExample {
 	@BeforeSuite
 	public void initDriver() throws Exception {
 		System.out.println("You are testing in Chrome");
-		System.setProperty("webdrive.ie.webdriver", "C:\\Users\\Administrator\\Desktop\\IEDriverServer");
-		driver = new InternetExplorerDriver();
+		System.setProperty("webdrive.chrome.webdriver", "C:\\Users\\Administrator\\Desktop\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		
 	}
 
 	@Test
