@@ -112,11 +112,11 @@ public class TestNGSeleniumSimpleSearchExample {
 
             public void Testcase2aaaa() {
 
-            wd.get("http://www.floraindia.com");
+            driver.get("http://www.floraindia.com");
 
-            wd.findElement(By.id("kwsch")).sendKeys("Blue");
+            driver.findElement(By.id("kwsch")).sendKeys("Blue");
 
-            wd.findElement(By.xpath("//input[@src='images/go.gif']")).click();
+            driver.findElement(By.xpath("//input[@src='images/go.gif']")).click();
 
             result = wd.findElement(By.xpath("//font[text()='Total Items  :']//following::td[1]")).getText();
 
@@ -128,11 +128,11 @@ public class TestNGSeleniumSimpleSearchExample {
 
             public void Testcase3() {
 
-            wd.get("http://www.floraindia.com");
+            driver.get("http://www.floraindia.com");
 
-            wd.findElement(By.id("kwsch")).sendKeys("Yellow");
+            driver.findElement(By.id("kwsch")).sendKeys("Yellow");
 
-            wd.findElement(By.xpath("//input[@src='images/go.gif']")).click();
+            driver.findElement(By.xpath("//input[@src='images/go.gif']")).click();
 
             result = wd.findElement(By.xpath("//font[text()='Total Items  :']//following::td[1]")).getText();
 
@@ -144,11 +144,11 @@ public class TestNGSeleniumSimpleSearchExample {
 
             public void Testcase4() {
 
-            wd.get("http://www.floraindia.com");
+            driver.get("http://www.floraindia.com");
 
-            wd.findElement(By.id("kwsch")).sendKeys("Purple");
+            driver.findElement(By.id("kwsch")).sendKeys("Purple");
 
-            wd.findElement(By.xpath("//input[@src='images/go.gif']")).click();
+            driver.findElement(By.xpath("//input[@src='images/go.gif']")).click();
 
             result = wd.findElement(By.xpath("//font[text()='Total Items  :']//following::td[1]")).getText();
 
