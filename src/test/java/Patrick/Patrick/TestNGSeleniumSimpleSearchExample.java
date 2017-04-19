@@ -40,7 +40,7 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 	}
 	
-	@Test 2
+	@Test 
 	public void searchTestNGInGoogleA() {
 		final String searchKey = "MyCIT";
 		System.out.println("Search " + searchKey + " in google");
@@ -57,7 +57,7 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 	}
 	
-	@Test 3
+	@Test 
 	public void searchTestNGInGoogleAA() {
 		final String searchKey = "Facebook";
 		System.out.println("Search " + searchKey + " in google");
@@ -73,8 +73,8 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 		
 	}
-	
-	@Test 4
+
+	@Test 
 	public void searchTestNGInGoogleAAA() {
 		final String searchKey = "Twitter";
 		System.out.println("Search " + searchKey + " in google");
@@ -91,7 +91,7 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 	}
 	
-	@Test 5
+	@Test 
 	public void searchTestNGInGoogleAAAA() {
 		final String searchKey = "Instagram";
 		System.out.println("Search " + searchKey + " in google");
@@ -108,7 +108,7 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 	}
 	
-	@Test 6
+	@Test 
 	public void searchTestNGInGoogleAAAAA() {
 		final String searchKey = "Selenium";
 		System.out.println("Search " + searchKey + " in google");
@@ -125,7 +125,7 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 	}
 	
-	@Test 7
+	@Test 
 	public void searchTestNGInGoogleAAAA() {
 		final String searchKey = "Maven";
 		System.out.println("Search " + searchKey + " in google");
@@ -142,7 +142,7 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 	}
 	
-	@Test 8
+	@Test 
 	public void searchTestNGInGoogleAAAA() {
 		final String searchKey = "RTE";
 		System.out.println("Search " + searchKey + " in google");
@@ -159,7 +159,7 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 	}
 	
-	@Test 9
+	@Test 
 	public void searchTestNGInGoogleAAAA() {
 		final String searchKey = "Instagram";
 		System.out.println("Search " + searchKey + " in google");
