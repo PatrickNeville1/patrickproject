@@ -37,10 +37,13 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 		System.out.println("Got " + searchKey + " results");
 		
-		driver.Quit();
 		
 	}
 	
+	public void AfterMethod() {
+		
+		driver.quit();
 	
+	}
 	
 }
