@@ -37,9 +37,10 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 		System.out.println("Got " + searchKey + " results");
 		
+		driver.Quit();
+		
 	}
 	
-	@AfterSuite
-	Webdriver.Quit()
+	
 	
 }
