@@ -109,52 +109,73 @@ public class TestNGSeleniumSimpleSearchExample {
 	}
 	
 	@Test 6
-
-            public void Testcase2aaaa() {
-
-            driver.get("http://www.floraindia.com");
-
-            driver.findElement(By.id("kwsch")).sendKeys("Blue");
-
-            driver.findElement(By.xpath("//input[@src='images/go.gif']")).click();
-
-            result = wd.findElement(By.xpath("//font[text()='Total Items  :']//following::td[1]")).getText();
-
-            Assert.assertEquals(result, "13");
-
-             }
-
-            @Test 7
-
-            public void Testcase3() {
-
-            driver.get("http://www.floraindia.com");
-
-            driver.findElement(By.id("kwsch")).sendKeys("Yellow");
-
-            driver.findElement(By.xpath("//input[@src='images/go.gif']")).click();
-
-            result = wd.findElement(By.xpath("//font[text()='Total Items  :']//following::td[1]")).getText();
-
-            Assert.assertEquals(result, "27");
-
-             }
-
-            @Test 8
-
-            public void Testcase4() {
-
-            driver.get("http://www.floraindia.com");
-
-            driver.findElement(By.id("kwsch")).sendKeys("Purple");
-
-            driver.findElement(By.xpath("//input[@src='images/go.gif']")).click();
-
-            result = wd.findElement(By.xpath("//font[text()='Total Items  :']//following::td[1]")).getText();
-
-            Assert.assertEquals(result, "10");
-
-             }
+	public void searchTestNGInGoogleAAAAA() {
+		final String searchKey = "Selenium";
+		System.out.println("Search " + searchKey + " in google");
+		driver.navigate().to("http://www.google.com");
+		WebElement element = driver.findElement(By.name("q"));
+		System.out.println("Enter " + searchKey);
+		element.sendKeys(searchKey);
+		System.out.println("submit");
+		element.submit();
+		
+		
+		System.out.println("Got " + searchKey + " results");
+		
+		
+	}
+	
+	@Test 7
+	public void searchTestNGInGoogleAAAA() {
+		final String searchKey = "Maven";
+		System.out.println("Search " + searchKey + " in google");
+		driver.navigate().to("http://www.google.com");
+		WebElement element = driver.findElement(By.name("q"));
+		System.out.println("Enter " + searchKey);
+		element.sendKeys(searchKey);
+		System.out.println("submit");
+		element.submit();
+		
+		
+		System.out.println("Got " + searchKey + " results");
+		
+		
+	}
+	
+	@Test 8
+	public void searchTestNGInGoogleAAAA() {
+		final String searchKey = "RTE";
+		System.out.println("Search " + searchKey + " in google");
+		driver.navigate().to("http://www.google.com");
+		WebElement element = driver.findElement(By.name("q"));
+		System.out.println("Enter " + searchKey);
+		element.sendKeys(searchKey);
+		System.out.println("submit");
+		element.submit();
+		
+		
+		System.out.println("Got " + searchKey + " results");
+		
+		
+	}
+	
+	@Test 9
+	public void searchTestNGInGoogleAAAA() {
+		final String searchKey = "Instagram";
+		System.out.println("Search " + searchKey + " in google");
+		driver.navigate().to("http://www.google.com");
+		WebElement element = driver.findElement(By.name("q"));
+		System.out.println("Enter " + searchKey);
+		element.sendKeys(searchKey);
+		System.out.println("submit");
+		element.submit();
+		
+		
+		System.out.println("Got " + searchKey + " results");
+		
+		
+	}
+	
 	
 	public void AfterMethod() {
 		
