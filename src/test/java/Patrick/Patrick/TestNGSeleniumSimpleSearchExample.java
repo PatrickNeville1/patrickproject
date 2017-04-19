@@ -37,45 +37,6 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 		System.out.println("Got " + searchKey + " results");
 		
-		
-	}
-	
-	@Test2 
-	public void searchTestNGInGoogleA() {
-		final String searchKey = "MyCIT";
-		System.out.println("Search " + searchKey + " in google");
-		driver.navigate().to("http://www.google.com");
-		WebElement element = driver.findElement(By.name("q"));
-		System.out.println("Enter " + searchKey);
-		element.sendKeys(searchKey);
-		System.out.println("submit");
-		element.submit();
-		
-		
-		System.out.println("Got " + searchKey + " results");
-		
-		
-	}
-	
-	@Test3
-	public void searchTestNGInGoogleAA() {
-		final String searchKey = "Facebook";
-		System.out.println("Search " + searchKey + " in google");
-		driver.navigate().to("http://www.google.com");
-		WebElement element = driver.findElement(By.name("q"));
-		System.out.println("Enter " + searchKey);
-		element.sendKeys(searchKey);
-		System.out.println("submit");
-		element.submit();
-		
-		
-		System.out.println("Got " + searchKey + " results");
-		
-		
-	}
-
-	@Test4 
-	public void searchTestNGInGoogleAAA() {
 		final String searchKey = "Twitter";
 		System.out.println("Search " + searchKey + " in google");
 		driver.navigate().to("http://www.google.com");
@@ -85,96 +46,12 @@ public class TestNGSeleniumSimpleSearchExample {
 		System.out.println("submit");
 		element.submit();
 		
-		
 		System.out.println("Got " + searchKey + " results");
-		
-		
 	}
 	
-	@Test5 
-	public void searchTestNGInGoogleAAAA() {
-		final String searchKey = "Instagram";
-		System.out.println("Search " + searchKey + " in google");
-		driver.navigate().to("http://www.google.com");
-		WebElement element = driver.findElement(By.name("q"));
-		System.out.println("Enter " + searchKey);
-		element.sendKeys(searchKey);
-		System.out.println("submit");
-		element.submit();
-		
-		
-		System.out.println("Got " + searchKey + " results");
-		
-		
-	}
 	
-	@Test6 
-	public void searchTestNGInGoogleAAAAA() {
-		final String searchKey = "Selenium";
-		System.out.println("Search " + searchKey + " in google");
-		driver.navigate().to("http://www.google.com");
-		WebElement element = driver.findElement(By.name("q"));
-		System.out.println("Enter " + searchKey);
-		element.sendKeys(searchKey);
-		System.out.println("submit");
-		element.submit();
 		
-		
-		System.out.println("Got " + searchKey + " results");
-		
-		
-	}
 	
-	@Test7 
-	public void searchTestNGInGoogleAAAA() {
-		final String searchKey = "Maven";
-		System.out.println("Search " + searchKey + " in google");
-		driver.navigate().to("http://www.google.com");
-		WebElement element = driver.findElement(By.name("q"));
-		System.out.println("Enter " + searchKey);
-		element.sendKeys(searchKey);
-		System.out.println("submit");
-		element.submit();
-		
-		
-		System.out.println("Got " + searchKey + " results");
-		
-		
-	}
-	
-	@Test8 
-	public void searchTestNGInGoogleAAAA() {
-		final String searchKey = "RTE";
-		System.out.println("Search " + searchKey + " in google");
-		driver.navigate().to("http://www.google.com");
-		WebElement element = driver.findElement(By.name("q"));
-		System.out.println("Enter " + searchKey);
-		element.sendKeys(searchKey);
-		System.out.println("submit");
-		element.submit();
-		
-		
-		System.out.println("Got " + searchKey + " results");
-		
-		
-	}
-	
-	@Test9 
-	public void searchTestNGInGoogleAAAA() {
-		final String searchKey = "Instagram";
-		System.out.println("Search " + searchKey + " in google");
-		driver.navigate().to("http://www.google.com");
-		WebElement element = driver.findElement(By.name("q"));
-		System.out.println("Enter " + searchKey);
-		element.sendKeys(searchKey);
-		System.out.println("submit");
-		element.submit();
-		
-		
-		System.out.println("Got " + searchKey + " results");
-		
-		
-	}
 	
 	
 	public void AfterMethod() {
