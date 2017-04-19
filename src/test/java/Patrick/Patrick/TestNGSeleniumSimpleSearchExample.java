@@ -18,7 +18,7 @@ public class TestNGSeleniumSimpleSearchExample {
 	@BeforeSuite
 	public void initDriver() throws Exception {
 		System.out.println("You are testing in Chrome");
-		System.setProperty("webdrive.ie.webdriver", "C:\\Users\Administrator\\Desktop\\IEDriverServer");
+		System.setProperty("webdrive.ie.webdriver", "C:\\Users\\Administrator\\Desktop\\IEDriverServer");
 		driver = new ChromeDriver();
 	}
 
@@ -26,7 +26,7 @@ public class TestNGSeleniumSimpleSearchExample {
 	public void searchTestNGInGoogle() {
 		final String searchKey = "TestNG";
 		System.out.println("Search " + searchKey + " in google");
-		driver.navigate().to("http:\\www.google.com");
+		driver.navigate().to("http://www.google.com");
 		WebElement element = driver.findElement(By.name("q"));
 		System.out.println("Enter " + searchKey);
 		element.sendKeys(searchKey);
