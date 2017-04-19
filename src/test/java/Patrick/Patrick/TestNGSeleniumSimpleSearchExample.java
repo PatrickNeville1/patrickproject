@@ -21,12 +21,7 @@ public class TestNGSeleniumSimpleSearchExample {
 		System.setProperty("webdriver.chrome.driver", "C://Users//Administrator//Desktop//chromedriver_win32//chromedriver.exe");
 		driver = new ChromeDriver();
  		driver.get("http://www.google.com/xhtml");
- 		Thread.sleep(5000);  // Let the user actually see something!
-  		WebElement searchBox = driver.findElement(By.name("q"));
-  		searchBox.sendKeys("ChromeDriver");
-  		searchBox.submit();
-  		Thread.sleep(5000);  // Let the user actually see something!
-  		driver.quit();
+ 	
 		
 	}
 
