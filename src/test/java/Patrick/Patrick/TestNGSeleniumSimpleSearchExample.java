@@ -37,16 +37,16 @@ public class TestNGSeleniumSimpleSearchExample {
 		
 		System.out.println("Got " + searchKey + " results");
 		
-		final String searchKey = "Twitter";
-		System.out.println("Search " + searchKey + " in google");
+		final String searchKeyA = "Twitter";
+		System.out.println("Search " + searchKeyA + " in google");
 		driver.navigate().to("http://www.google.com");
 		WebElement element = driver.findElement(By.name("q"));
-		System.out.println("Enter " + searchKey);
-		element.sendKeys(searchKey);
+		System.out.println("Enter " + searchKeyA);
+		element.sendKeys(searchKeyA);
 		System.out.println("submit");
 		element.submit();
 		
-		System.out.println("Got " + searchKey + " results");
+		System.out.println("Got " + searchKeyA + " results");
 	}
 	
 	
