@@ -19,7 +19,7 @@ public class TestNGSeleniumSimpleSearchExample {
 	public void initDriver() throws Exception {
 		System.out.println("You are testing in Chrome");
 		File file = new File("C://Users//Administrator//Desktop//chromedriver_win32//chromedriver.exe");
-		System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		WebDriver driver = new ChromeDriver();
 		
 	}
